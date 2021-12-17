@@ -23,4 +23,11 @@ canvas {
 
 .toolbox {
   background-color: steelblue;
+  border: 1px solid slateblue;
+  display: flex;
+  padding: 1rem;
+}
+
+.toolbox > * {
+  background-color: #fff;
 }
